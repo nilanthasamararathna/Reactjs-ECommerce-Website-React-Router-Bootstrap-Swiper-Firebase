@@ -11,7 +11,7 @@ const Navitems = () => {
   //addEventListener
 
   window.addEventListener("scroll", () => {
-    if(window.scroll > 200){
+    if(window.scrollY > 200){
       setHeaderFixed(true)
     }else{
       setHeaderFixed(false)
